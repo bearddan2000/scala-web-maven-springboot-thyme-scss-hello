@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spring web example</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/css/master.css}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
 </head>
 <body>
-    <center>
-        <h1>Hello World</h1>
-    </center>    
+    <div class="container">
+        <center>
+            <h1>Hello World</h1>
+        </center>
+    </div>
+    <div class="container">
+        <p>Hello from scss</p>
+    </div>
+    <div class="container" id="greet"/>  
+    <div class="container">
+      <footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      </footer>
+    </div>
+    <script th:src="@{/js/hello.js}"></script>
 </body>
 </html>

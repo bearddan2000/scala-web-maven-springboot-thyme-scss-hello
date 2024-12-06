@@ -1,0 +1,10 @@
+$f: 18px;
+$c: #ffdead;
+
+div{
+    p{
+        font-size: $f;
+        color: $c;
+        background-color: black;
+    }
+}
